@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{../HoTT}
+
+\title{HoTT Reading Group Week 1}
+\author{Andrey Yao}
+
+\begin{document}
+\maketitle
+
+
+\section*{Introduction}
+
+In the recent decade (or maybe two decades), researchers have discovered connections between type theory and homotopy theory.
+
+Type Theory, specifically Martin-Lof Type Theory (MLTT), or sometimes also called dependent type theory, is very important in computer science. It has good computational properties and works very well with proof assistants like Coq, Agda, etc. Coq technically builds on Calculus of Inductive Constructions (CIC), but they are close enough for our purposes.
+
+Homotopy Theory is a branch of topology that studies, well, homotopies and topological spaces up to homotopies. A homotopy between two continuous maps between two topological spaces is a ``continuous parametrization'' from the interval $[0,1]$ of the maps. One can then define ``homotopy equivalence'' between spaces similar to how we define equivalence of categories.
+
+Homotopy Type Theory (HoTT) is modification of MLTT that has a homotopical interpretation. In particular, types are interpreted as spaces, and equalities are interpreted as paths. As a foundational theory, HoTT is ``mostly constructive'', with the exception of what is called ``the univalence axiom'' and ``higher inductive types''(HIT). Current research tries to figure out the computational meaning of these things, with ``Cubical Type Theory'' showing promises.
+
+Univalence axiom: Identity is equivalent to equivalence.
+
+
+\section*{Motivation}
+Why should we care about HoTT? The following are taken from \href{https://ncatlab.org/nlab/show/homotopy+type+theory}{nlab page for HoTT}:
+\begin{enumerate}
+\item It treats homotopy theory and $\infty$-groupoids natively. This is an advantage for doing homotopical and higher-categorical mathematics. Allows doing ``synthetic homotopy''.
+\item It is naturally isomorphism- and equivalence-invariant (respecting the principle of equivalence). This is a consequence of the univalence axiom.
+\item Notions such as propositions and sets are defined objects, which inherit good computational properties from the underlying type theory.
+\end{enumerate}
+
+
+\section*{Structure}
+
+This reading group aims to obtain a basic understanding of Homotopy Type Theory. Tentatively, we could talk about the following ideas:
+
+\begin{enumerate}
+\item Familiarize ourselves with basis syntax and usage of dependent type theory.
+\item Understand basic notions of homotopy theory
+\item \dots
+\end{enumerate}
+
+
+\section*{}
+
+\end{document}
