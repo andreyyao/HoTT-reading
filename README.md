@@ -3,10 +3,11 @@
 This is the repo for the unofficial Homotopy Type Theory (HoTT) Reading Group at Cornell, fall 2022. We will upload presentations, logistics, and other stuff here.
 
 ## Schedule
-| Date   | Topic        | Tasks                         |
-|:------:|:------------:|:------------------------------|
-| Oct.25 | Introduction | Read HoTT book intro and Ch.1 |
-| Nov.01 | Type Theory  | /                             |
+| Date   | Topic                            | Tasks                         |
+|:------:|:--------------------------------:|:------------------------------|
+| Oct.25 | Introduction                     | Read HoTT book intro and Ch.1 |
+| Nov.01 | Type Theory                      | HoTT book Ch.2                |
+| Nov.08 | Type Theory with Homotopy Theory |                               |
 
 ## Useful Links (in no particular order)
 
